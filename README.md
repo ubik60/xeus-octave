@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ubik60/xeus-octave/main)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ubik60/xeus-octave/main?labpath=AR2-AR4.ipynb)
 
 # Binder configuration files
 

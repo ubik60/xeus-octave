@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ubik60/xeus-octave/main)
+
 # Binder configuration files
 
 These configuration uses an headless OsMesa build of ``xoctave`` that should be

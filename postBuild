@@ -6,6 +6,10 @@ set -o nounset
 # This works because postBuild user is the same as user running Binder.
 # https://docs.octave.org/interpreter/Administrating-Packages.html
 # Use micromamba so that the compilers are properly found.
-micromamba run -n notebook octave-cli --eval 'pkg install -forge control'
-micromamba run -n notebook octave-cli --eval 'pkg install -forge signal'
-micromamba run -n notebook octave-cli --eval 'pkg install -forge image'
+
+
+
+for i in control-3.6.1.tar.gz image-2.14.0.tar.gz optim-1.6.2.tar.gz signal-1.4.5.tar.gz
+do
+  micromamba run -n notebook octave-cli --eval "pkg install $i"
+done
